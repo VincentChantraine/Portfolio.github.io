@@ -45,8 +45,7 @@ body
  }
 
 #menu ull lli a {
- display:block;
- float:left;   
+ display:block;   
  width:200px;
  background-color:#00d5ff;
  color:white;
@@ -55,7 +54,7 @@ body
  padding:5px;
  border:2px solid;
  border-color:#DCDCDC #696969 #696969 #DCDCDC;
- }
+}
 
 #menu ull lli a:hover {
  background-color:#D3D3D3;
