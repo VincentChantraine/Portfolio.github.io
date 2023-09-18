@@ -1,6 +1,6 @@
 body
 {
-  background-color: white ;
+  color: white;
 }
 
 #menu ul{
@@ -68,4 +68,18 @@ h6
 {
   color: #000000;
   border-bottom: 2px solid #00ffee;
+}
+
+.image-background {
+  min-height: 500px;
+  background-image: url(https://images8.alphacoders.com/559/559128.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-background2 {
+  min-height: 500px;
+  background-image: url(https://i.pinimg.com/550x/62/74/75/6274752eeea63aa82d3e295115819309.jpg);
+  background-size: cover;
+  background-position: center;
 }
