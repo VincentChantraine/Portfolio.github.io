@@ -1,0 +1,50 @@
+body
+{
+  color: white;
+  background-image: url(https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28313.jpg?w=900&t=st=1702637318~exp=1702637918~hmac=15f4a20927b270b6b583348948973c5dc316fafd18a1a3c15f863c293a0a3b1a);
+  background-size: cover;
+  background-position: center;
+}
+
+#menu ul{
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+
+#menu li {
+ margin-left:2px;
+ float:left; 
+ }
+
+#menu ul li a {
+ display:block;
+ width:176px;
+ background-color:black;
+ color:white;
+ font-size:large;
+ text-decoration:none;
+ text-align:center;
+ padding:12px;
+ border:4px solid;
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+
+ #menu ul li b {
+  display:block;
+  width:176px;
+  background-color:black;
+  color:white;
+  font-size:large;
+  text-decoration:none;
+  text-align:center;
+  padding:12px;
+  border:4px solid;
+  border-color:#DCDCDC #696969 #696969 #DCDCDC;
+  margin-left:255%;
+  }
+
+h6
+{
+  border-bottom: 2px solid white;
+}
