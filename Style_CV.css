@@ -1,7 +1,7 @@
 body
 {
   color: white;
-  background-image: url(https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28313.jpg?w=900&t=st=1702637318~exp=1702637918~hmac=15f4a20927b270b6b583348948973c5dc316fafd18a1a3c15f863c293a0a3b1a);
+  background-image: url(https://raw.githubusercontent.com/VincentChantraine/Porfolio/main/Background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -20,7 +20,7 @@ body
 #menu ul li a {
  display:block;
  float:left;
- width:176px;
+ width:173px;
  background-color:black;
  color:white;
  font-size:large;
