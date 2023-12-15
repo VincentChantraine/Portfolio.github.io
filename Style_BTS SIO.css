@@ -17,18 +17,22 @@ body
  float:left; 
  }
 
-#menu ul li a {
- display:block;
- float:left;
- width:173px;
- background-color:black;
- color:white;
- font-size:large;
- text-decoration:none;
- text-align:center;
- padding:12px;
- border:4px solid;
- border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ #menu ul li a, #menu ul li a b {
+  display:block;
+  width:173px;
+  background-color:black;
+  color:white;
+  font-size:large;
+  text-decoration:none;
+  text-align:center;
+  padding:12px;
+  border:4px solid;
+  border-color:#DCDCDC #696969 #696969 #DCDCDC;
+  }
+ 
+ #menu ul li a b {
+   width:53px;
+   margin-left:652%;
  }
 
 h6{border-bottom: 2px solid white;}
