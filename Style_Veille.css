@@ -19,7 +19,7 @@ body
 
  #menu ul li a, #menu ul li a b {
   display:block;
-  width:173px;
+  width:176px;
   background-color:black;
   color:white;
   font-size:large;
@@ -32,7 +32,7 @@ body
  
  #menu ul li a b {
    width:88px;
-   margin-left:640%;
+   margin-left:630%;
  }
 
 h6{border-bottom: 2px solid white;}
