@@ -2,8 +2,7 @@ body
 {
   color: white;
   text-shadow: 1px 1px 2px black;
-  background-image: url(https://img.freepik.com/vecteurs-libre/fond-futuriste-technologie-degradee_23-2149122421.jpg?w=826&t=st=1702736855~exp=1702737455~hmac=6f2b8959ea1b0a5f436696b90db0fdb59378f6ed7533283d548875faa275e9e7);
-  /*https://img.freepik.com/vecteurs-libre/circuits-fond-numerique-degrade-bleu-rouge_23-2148821701.jpg?w=826&t=st=1702735080~exp=1702735680~hmac=34f2e5372f0c8b19c6434c3c4837524a0fced47c31c76fc29c9c6ae135a6aa92*/
+  background-image: url(https://raw.githubusercontent.com/VincentChantraine/Porfolio/main/Fond_Accueil1.jpg);
   background-size: cover;
   background-position: center;
 }
