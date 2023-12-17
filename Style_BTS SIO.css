@@ -13,13 +13,14 @@ body
  list-style-type:none;
  }
 
-#menu li {
+#menu ul li {
  margin-left:2px;
  float:left; 
  }
 
  #menu ul li a, #menu ul li a b {
   display:block;
+  position: relative;
   width:173px;
   background-color:black;
   color:white;
@@ -31,10 +32,19 @@ body
   border-color:#DCDCDC #696969 #696969 #DCDCDC;
   }
  
- #menu ul li a b {
-   width:53px;
-   margin-left:652%;
- }
+#menu ul li a b {
+  position:absolute;
+  width:53px;
+  margin-left:573%;
+}
+
+ #menu ul li a:hover{
+  background-color: #353535;
+}
+
+#menu ul li a b:hover {
+  background-color: #353535;
+}
 
 h6{border-bottom: 2px solid white;}
 
