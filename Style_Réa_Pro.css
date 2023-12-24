@@ -109,11 +109,10 @@ h2{text-decoration: underline;}
 }
 
 #gauche {
-  float:left;
   width:60%;
 }
  
 #droite {
-  overflow:auto;
-    width: 15%;
+  float:left;
+  width: 15%;
 }
