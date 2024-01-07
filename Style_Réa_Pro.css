@@ -96,8 +96,9 @@ footer .colonne p:hover {
 
 h6{border-bottom: 2px solid white;}
 
-h5{border-bottom: 2px solid white;
-  width:70%;}
+h5{border-bottom: 2px solid #7F8C8D;
+  width:80%;
+}
 
 h1{text-decoration: underline;}
 
