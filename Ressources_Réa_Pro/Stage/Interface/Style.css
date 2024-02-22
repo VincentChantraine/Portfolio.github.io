@@ -1,0 +1,14 @@
+body
+{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  background-image:url(https://raw.githubusercontent.com/VincentChantraine/AP4_1er_annee/main/Taf/Mis5_BD/Site/Fond.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h6{border-bottom: 2px solid white;}
+
+h1{text-decoration: underline;}
