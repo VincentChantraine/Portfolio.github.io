@@ -92,6 +92,24 @@ footer .colonne p:hover {
 	color: #fff;
 }
 
+/*Logo*/
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 80%;
+  background-image: url("https://img.freepik.com/vecteurs-premium/stockage-ligne-futuriste-technologie-cloud-moderne-fonctionne-domicile_184920-788.jpg?w=2000");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2.5px solid black;
+  cursor: pointer;
+}
+
 /*Style*/
 
 h6{border-bottom: 2px solid white;}
