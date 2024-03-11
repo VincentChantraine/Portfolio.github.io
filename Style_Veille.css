@@ -122,3 +122,19 @@ h2{text-decoration: underline;
   text-align: center;}
   
 h3{text-decoration: underline;}
+
+
+#global{
+  overflow:auto;
+  display:flex;
+  align-items: center;
+}
+
+#gauche {
+  width:60%;
+}
+ 
+#droite {
+  float:left;
+  width: 28%;
+}
