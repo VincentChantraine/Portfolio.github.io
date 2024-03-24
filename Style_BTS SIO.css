@@ -31,6 +31,10 @@ nav ul li {
 	cursor: pointer;
 }
 
+li{
+	list-style-type: none;
+}
+
 li a {
 	color: white;
 }
@@ -96,6 +100,9 @@ footer .colonne p:hover {
 /*Logo*/
 
 .circle {
+	position:absolute;
+	right:20px;
+	top:20px;
 	width: 90px;
 	height: 90px;
 	border-radius: 80%;

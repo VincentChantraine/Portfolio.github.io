@@ -96,6 +96,9 @@ footer .colonne p:hover {
 /*Logo*/
 
 .circle {
+	position:absolute;
+	right:20px;
+	top:20px;
   width: 90px;
   height: 90px;
   border-radius: 80%;
