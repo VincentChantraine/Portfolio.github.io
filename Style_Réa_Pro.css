@@ -140,7 +140,6 @@ h2{text-decoration: underline;}
 #global{
   display:flex;
   align-items: center;
-  list-style-type: none;
 }
 
 #gauche {
