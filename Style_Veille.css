@@ -24,7 +24,7 @@ nav {
 nav ul {
 	display: flex;
 	list-style-type: none;
-    font-size: 30px;
+  font-size: 30px;
 }
 nav ul li {
 	margin-left: 25px;
@@ -37,6 +37,18 @@ li a {
 
 li a:hover {
 	color: #ccc;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+	color: #ccc;
+}
+
+a:hover{
+	color: white;
 }
 
 /*Bouton*/
@@ -128,16 +140,14 @@ h3{text-decoration: underline;}
 
 
 #global{
-  overflow:auto;
   display:flex;
   align-items: center;
 }
 
-#gauche {
-  width:60%;
+#gauche{
+  margin-left: 22% ;
 }
  
-#droite {
-  float:left;
-  width: 28%;
+#droite{
+  margin-left: 23% ;
 }
