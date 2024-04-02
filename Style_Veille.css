@@ -1,13 +1,13 @@
 /*@media only screen and (min-width: 1024px) {}*/
 
-body{
-  color:white;
-  text-shadow: 1px 1px 2px black;
-  background-image:url(https://raw.githubusercontent.com/VincentChantraine/Portfolio/main/Ressources/Fond_Veille.jpg);
-  background-size:cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	background-image: url(https://raw.githubusercontent.com/VincentChantraine/Portfolio/main/Ressources/Fond_Veille.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*Lien*/
@@ -24,16 +24,21 @@ nav {
 nav ul {
 	display: flex;
 	list-style-type: none;
-    font-size: 30px;
+	font-size: 30px;
 }
+
 nav ul li {
 	margin-left: 25px;
 	cursor: pointer;
 }
 
-a{color: white;}
+a {
+	color: white;
+}
 
-a:hover{color: #ccc;}
+a:hover {
+	color: #ccc;
+}
 
 /*Bannière*/
 
@@ -45,13 +50,15 @@ footer {
 	padding: 10px;
 	background-color: #000;
 	color: white;
-  font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
+
 footer .colonne p {
 	font-size: 12px;
 	color: #ccc;
 	cursor: pointer;
 }
+
 footer .colonne p:hover {
 	color: #fff;
 }
@@ -59,48 +66,66 @@ footer .colonne p:hover {
 /*Logo*/
 
 .circle2 {
-  position:absolute;
-  right:20px;
-  top:20px;
-  width: 90px;
-  height: 90px;
-  border-radius: 80%;
-  background-image: url("https://img.freepik.com/vecteurs-premium/stockage-ligne-futuriste-technologie-cloud-moderne-fonctionne-domicile_184920-788.jpg?w=2000");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
-  border: 2.5px solid black;
-  cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 90px;
+	height: 90px;
+	border-radius: 80%;
+	background-image: url("https://img.freepik.com/vecteurs-premium/stockage-ligne-futuriste-technologie-cloud-moderne-fonctionne-domicile_184920-788.jpg?w=2000");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 20px;
+	border: 2.5px solid black;
+	cursor: pointer;
 }
 
 /*Style*/
 
-h6{border-bottom: 2px solid white;}
+h6 {
+	border-bottom: 2px solid white;
+}
 
-h1{text-decoration: underline;
-  text-align: center;}
+h1 {
+	text-decoration: underline;
+	text-align: center;
+}
 
-h2{text-decoration: underline;
-	text-align: center;}
-  
-#global{display:flex;
-  align-items: center;}
+h2 {
+	text-decoration: underline;
+	text-align: center;
+}
 
-#gauche{margin-left: 22%;}
- 
-#droite{margin-left: 23%;}
+#global {
+	display: flex;
+	align-items: center;
+}
 
-.text{margin-left: 5%;
-	margin-right: 5%;}
+#gauche {
+	margin-left: 22%;
+}
 
-.tiret{margin-left: 2%;
-	margin-right: 5%;}
+#droite {
+	margin-left: 23%;
+}
 
-.tiret2{margin-left: 0.9%;}
+.text {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.tiret {
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.tiret2 {
+	margin-left: 0.9%;
+}
 
 
 /*Bouton*/
@@ -117,14 +142,14 @@ button {
 	padding: 0;
 	font-size: inherit;
 	font-family: inherit;
-   }
-   
-   button.learn-more {
+}
+
+button.learn-more {
 	width: 10rem;
 	height: auto;
-   }
-   
-   button.learn-more .circle {
+}
+
+button.learn-more .circle {
 	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	position: relative;
 	display: block;
@@ -133,25 +158,25 @@ button {
 	height: 3rem;
 	background: white;
 	border-radius: 1.625rem;
-   }
-   
-   button.learn-more .circle .icon {
+}
+
+button.learn-more .circle .icon {
 	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	margin: auto;
-   }
-   
-   button.learn-more .circle .icon.arrow {
+}
+
+button.learn-more .circle .icon.arrow {
 	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	left: 0.925rem;
 	width: 1.125rem;
 	height: 0.125rem;
 	background: none;
-   }
-   
-   button.learn-more .circle .icon.arrow::before {
+}
+
+button.learn-more .circle .icon.arrow::before {
 	position: absolute;
 	content: "";
 	top: -0.29rem;
@@ -161,9 +186,9 @@ button {
 	border-top: 0.125rem solid black;
 	border-right: 0.125rem solid black;
 	transform: rotate(225deg);
-   }
-   
-   button.learn-more .button-text {
+}
+
+button.learn-more .button-text {
 	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	position: absolute;
 	top: 0;
@@ -177,19 +202,19 @@ button {
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
-   }
-   
-   button:hover .circle {
+}
+
+button:hover .circle {
 	width: 100%;
 	color: black;
-   }
-   
-   button:hover .circle .icon.arrow {
+}
+
+button:hover .circle .icon.arrow {
 	background: black;
 	width: 9%;
 	transform: translate(-0.1rem, 0);
-   }
+}
 
-   button:hover .button-text {
+button:hover .button-text {
 	color: black;
-   }
+}
