@@ -101,12 +101,14 @@ h2 {
 	text-align: center;
 }
 
-ul h3{
+ul h3 {
 	line-height: 200%;
 }
 
-hr{height : 10%;
-	visibility:hidden;}
+hr {
+	height: 10%;
+	visibility: hidden;
+}
 
 #global {
 	display: flex;
