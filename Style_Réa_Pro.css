@@ -126,16 +126,16 @@ h2 {
 	margin-left: 10.3%;
 }
 
-#global {
+.global {
 	display: flex;
 	align-items: center;
 }
 
-#gauche {
+.gauche {
 	margin-left: 8%;
 }
 
-#droite {
+.droite {
 	margin-left: 4%;
 }
 

@@ -110,16 +110,16 @@ hr {
 	visibility: hidden;
 }
 
-#global {
+.global {
 	display: flex;
 	align-items: center;
 }
 
-#gauche {
+.gauche {
 	margin-left: 22%;
 }
 
-#droite {
+.droite {
 	margin-left: 23%;
 }
 
